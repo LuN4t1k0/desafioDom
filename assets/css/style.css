@@ -47,11 +47,13 @@ section{
   border-radius: 10px;
   border: 1px solid black;
   padding: 5px;
-}
-.card-input input::placeholder{
   font-size: 1.4em;
   padding-left: 10px;
 }
+/* .card-input input::placeholder{
+  font-size: 1.4em;
+  padding-left: 10px;
+} */
 
 .card-price{
   display: flex;
@@ -89,7 +91,6 @@ section{
 }
 
 .resultados {
-  background-color: rgb(26, 188, 96);
   height: 400px;
   width: 300px;
   display: flex;
@@ -106,7 +107,6 @@ section{
 }
 
 .color-circulo{
-  background-color: rgb(31, 26, 188);
   height: 35px;
   width: 35px;
   border-radius: 50%;
